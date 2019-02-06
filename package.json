@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "python -m SimpleHTTPServer 8000"
+    "serve": "parcel src/index.html"
   },
   "author": "Fyodor Loenko",
   "license": "MIT",
   "dependencies": {
     "three": "^0.100.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
   }
 }
