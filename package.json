@@ -11,9 +11,11 @@
   "author": "Fyodor Loenko",
   "license": "MIT",
   "dependencies": {
-    "three": "^0.100.0"
+    "three": "^0.100.0",
+    "three-orbitcontrols": "^2.101.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.11.0"
+    "parcel-bundler": "^1.11.0",
+    "parcel-plugin-static-files-copy": "^2.0.0"
   }
 }
